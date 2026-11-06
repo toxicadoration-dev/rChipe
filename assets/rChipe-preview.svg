@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+  <rect width="1200" height="650" fill="#181818"/>
+  <rect x="18" y="18" width="1164" height="614" rx="4" fill="#1e1e1e" stroke="#333337"/>
+  <rect x="18" y="18" width="1164" height="44" fill="#252526"/>
+  <circle cx="38" cy="40" r="4" fill="#969696"/>
+  <text x="51" y="44" fill="#cccccc" font-family="Segoe UI, sans-serif" font-size="13">rChipe</text>
+  <rect x="18" y="62" width="170" height="570" fill="#252526"/>
+  <rect x="18" y="62" width="170" height="40" fill="#1e1e1e"/>
+  <rect x="18" y="62" width="2" height="40" fill="#007acc"/>
+  <text x="37" y="87" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="13">Repeater</text>
+  <text x="37" y="128" fill="#969696" font-family="Segoe UI, sans-serif" font-size="13">Automator</text>
+  <text x="37" y="169" fill="#969696" font-family="Segoe UI, sans-serif" font-size="13">History</text>
+  <text x="37" y="210" fill="#969696" font-family="Segoe UI, sans-serif" font-size="13">Settings</text>
+  <rect x="188" y="62" width="994" height="570" fill="#181818"/>
+  <rect x="188" y="62" width="994" height="42" fill="#252526"/>
+  <rect x="188" y="62" width="497" height="42" fill="#181818"/>
+  <rect x="188" y="62" width="497" height="2" fill="#007acc"/>
+  <text x="207" y="88" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="13">Request</text>
+  <text x="705" y="88" fill="#969696" font-family="Segoe UI, sans-serif" font-size="13">Response</text>
+  <rect x="207" y="119" width="459" height="30" fill="#181818" stroke="#3c3c3c"/>
+  <text x="220" y="139" fill="#4ec9b0" font-family="Consolas, monospace" font-size="13">POST</text>
+  <text x="270" y="139" fill="#d4d4d4" font-family="Consolas, monospace" font-size="13">https://api.example.com/v1/items</text>
+  <rect x="620" y="119" width="69" height="30" fill="#0e639c"/>
+  <text x="641" y="139" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="13">Send</text>
+  <line x1="685" y1="104" x2="685" y2="632" stroke="#2d2d30" stroke-width="3"/>
+  <rect x="207" y="165" width="459" height="36" fill="#252526"/>
+  <text x="220" y="188" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="12">Raw</text>
+  <text x="270" y="188" fill="#969696" font-family="Segoe UI, sans-serif" font-size="12">Headers</text>
+  <text x="348" y="188" fill="#969696" font-family="Segoe UI, sans-serif" font-size="12">Params</text>
+  <rect x="207" y="201" width="459" height="380" fill="#181818" stroke="#2d2d30"/>
+  <g fill="#d4d4d4" font-family="Consolas, monospace" font-size="13">
+    <text x="225" y="229">POST /v1/items HTTP/1.1</text>
+    <text x="225" y="258" fill="#569cd6">Host: <tspan fill="#ce9178">api.example.com</tspan></text>
+    <text x="225" y="287" fill="#569cd6">Content-Type: <tspan fill="#ce9178">application/json</tspan></text>
+    <text x="225" y="345" fill="#dcdcaa">{</text>
+    <text x="225" y="374">  "name": "example",</text>
+    <text x="225" y="403">  "enabled": true</text>
+    <text x="225" y="432" fill="#dcdcaa">}</text>
+  </g>
+  <rect x="704" y="119" width="459" height="462" fill="#181818" stroke="#2d2d30"/>
+  <rect x="704" y="119" width="459" height="36" fill="#252526"/>
+  <text x="720" y="142" fill="#ffffff" font-family="Segoe UI, sans-serif" font-size="12">Raw</text>
+  <text x="770" y="142" fill="#969696" font-family="Segoe UI, sans-serif" font-size="12">Pretty</text>
+  <text x="828" y="142" fill="#969696" font-family="Segoe UI, sans-serif" font-size="12">Headers</text>
+  <text x="1076" y="142" fill="#4ec9b0" font-family="Segoe UI, sans-serif" font-size="12">200 OK</text>
+  <g fill="#d4d4d4" font-family="Consolas, monospace" font-size="13">
+    <text x="720" y="184">HTTP/1.1 200 OK</text>
+    <text x="720" y="213" fill="#569cd6">Content-Type: <tspan fill="#ce9178">application/json</tspan></text>
+    <text x="720" y="271" fill="#dcdcaa">{</text>
+    <text x="720" y="300">  "id": 42,</text>
+    <text x="720" y="329">  "name": "example",</text>
+    <text x="720" y="358">  "enabled": true</text>
+    <text x="720" y="387" fill="#dcdcaa">}</text>
+  </g>
+  <rect x="704" y="600" width="459" height="32" fill="#252526"/>
+  <text x="720" y="621" fill="#969696" font-family="Segoe UI, sans-serif" font-size="12">243 ms</text>
+  <text x="1130" y="621" fill="#969696" font-family="Segoe UI, sans-serif" font-size="12">94 B</text>
+</svg>

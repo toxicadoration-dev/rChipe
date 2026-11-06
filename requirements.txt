@@ -1,0 +1,4 @@
+# rChipe Dependencies
+# Note: Either PySide6 or PyQt6 is supported.
+PyQt6>=6.5.0
+httpx>=0.25.0
